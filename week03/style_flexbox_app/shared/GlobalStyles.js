@@ -1,6 +1,9 @@
 import { StyleSheet } from "react-native"
 
 const globalStyle = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+  },
   container: {
     flex: 1,
     backgroundColor: "#fff",
@@ -52,6 +55,18 @@ const globalStyle = StyleSheet.create({
   textStyle: {
     fontSize: 35,
     fontWeight: "bold",
+  },
+  button: {
+    marginTop: 20,
+    alignItems: "center",
+    backgroundColor: "#333",
+    color: "white",
+    borderRadius: "25%",
+    padding: 20,
+  },
+  text: {
+    color: "white",
+    fontSize: 15
   },
 })
 

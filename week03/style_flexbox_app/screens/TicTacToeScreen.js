@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import { StyleSheet, Alert, Text, View } from "react-native"
+import { StyleSheet, Alert, Text, View, TouchableOpacity } from "react-native"
 import globalStyle from "../shared/GlobalStyles"
 
 const TicTacToeScreen = () => {
@@ -105,7 +105,9 @@ const TicTacToeScreen = () => {
           ))
         )}
       </View>
-      <Text>Reset Game</Text>
+      <TouchableOpacity style={globalStyle.button}>
+        <Text style={globalStyle.text}>Reset Game</Text>
+      </TouchableOpacity>
     </View>
   )
 }
