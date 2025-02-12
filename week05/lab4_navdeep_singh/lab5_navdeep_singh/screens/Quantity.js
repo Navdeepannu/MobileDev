@@ -5,6 +5,7 @@ import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context"
 
 const QuantityScreen = ({ navigation }) => {
   const [quantity, setQuantity] = useState("")
+  
   const handleNext = () => {
     const qty = parseInt(quantity)
     if (!isNaN(qty) && qty > 0) {
