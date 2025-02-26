@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar"
-import { StyleSheet, Text, View } from "react-native"
+import { StyleSheet } from "react-native"
 
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context"
 
@@ -9,7 +9,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack"
 import SignInScreen from "./screens/SignInScreen"
 import DashboardScreen from "./screens/DashboardScreen"
 import BookingScreen from "./screens/BookingScreen"
-import { Colors } from "react-native/Libraries/NewAppScreen"
 
 export default function App() {
   const Stack = createNativeStackNavigator()
